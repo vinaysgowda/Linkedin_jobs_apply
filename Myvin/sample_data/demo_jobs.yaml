@@ -1,0 +1,12 @@
+jobs:
+  - title: Python Automation Engineer
+    company: Demo Careers
+    country: India
+    location: Chennai
+    apply_url: http://127.0.0.1:8000/jobs/demo-country
+  - title: Backend Python Engineer
+    company: Demo Careers 2
+    country: India
+    location: Bengaluru
+    apply_url: http://127.0.0.1:8000/jobs/demo-country
+
