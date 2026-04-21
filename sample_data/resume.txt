@@ -1,0 +1,17 @@
+Vignesh Shanthe
+Python Developer
+
+Summary
+Python developer with experience in browser automation, FastAPI services, data handling, and workflow scripting.
+
+Skills
+- Python
+- Playwright
+- FastAPI
+- SQL
+- Docker
+
+Experience
+- Built internal automation tools to reduce repetitive manual tasks.
+- Developed backend APIs and integration services.
+
