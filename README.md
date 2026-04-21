@@ -30,7 +30,7 @@ A local FastAPI demo site is included so you can test the end-to-end flow withou
 ## Install
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e '.[dev]'
@@ -40,7 +40,7 @@ python -m playwright install chromium
 ## Run the local demo site
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 uvicorn demo_site.app:app --reload
 ```
@@ -50,7 +50,7 @@ Open `http://127.0.0.1:8000/jobs/demo-country` if you want to inspect the form m
 ## Preview-fill the form without submitting
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 job-apply-bot preview \
   --profile sample_data/applicant_profile.yaml \
@@ -62,7 +62,7 @@ job-apply-bot preview \
 ## Fill and submit automatically
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 job-apply-bot submit \
   --profile sample_data/applicant_profile.yaml \
@@ -75,7 +75,7 @@ job-apply-bot submit \
 ## Interactive terminal wizard (asks for candidate details)
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 job-apply-bot wizard-apply \
   --site sample_data/demo_site.yaml \
@@ -93,7 +93,7 @@ When this command runs, it prompts for:
 ## LinkedIn batch by keywords and location
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 job-apply-bot linkedin-batch \
   --keywords "python,automation,backend" \
@@ -134,7 +134,7 @@ For security and compliance, this project does **not** store or auto-type Linked
 ## Run tests
 
 ```bash
-cd /Users/vshanthe/PycharmProjects/Myvin
+cd /Users/PycharmProjects/Linkedin_jobs_apply
 source .venv/bin/activate
 pytest
 ```
